@@ -9,5 +9,12 @@ Basic Requirement is :
 
 You have to find out which Applications are on the latest versions. This is done as a part of one of the feature.
 
+# JAX RS
+This project test the serialization and deserialization in JSON API.
+Two features which were tested are.
+
+.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT )
+                .enable(DeserializationFeature.FAIL_ON_READING_DUP_TREE_KEY );
+
 
 
